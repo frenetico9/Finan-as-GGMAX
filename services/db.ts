@@ -6,7 +6,7 @@ import type { User, Transaction, Goal, Currency, BudgetEnvelope, Debt, Investmen
 import { hashData } from './security';
 
 // --- DATABASE CONNECTION SETUP ---
-const NEON_CONNECTION_STRING = 'postgresql://neondb_owner:npg_yHN4a9hOiRYA@ep-young-recipe-acylf25m-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require';
+const NEON_CONNECTION_STRING = 'postgresql://neondb_owner:npg_Vm1BfGK9cpTy@ep-solitary-dawn-ac03658f-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require';
 
 const pool = new Pool({ connectionString: NEON_CONNECTION_STRING });
 
